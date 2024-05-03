@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2? family Poppins:wght@300;400;500;600;700;800;900% display-swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    background-image: url(pine-trees.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height:500px;
+    background-attachment: fixed;
+    
+}
+
+.background{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    height: 5px;
+    width: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: black;
+    padding: 0;
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 515px;
+    margin-bottom: 0;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    
+   
+}
+
+.ronel{
+    width:90px;
+    height: 90px;
+    border-radius: 100px;
+}
+
+.text{
+    font-family:"poppins",sans-serif;
+    color: black;
+}
+
+.navbar ul{
+    margin-left: 700px;
+    margin-right: 700px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: springgreen;
+    margin-top: 350px;
+    overflow: hidden;
+    width: 700px;;
+
+
+    }
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: green;
+    color: white;
+}
+
+.navbar li{
+float: left;
+}
+
+.btn{
+    width: 120px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    height:50px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transform:translateX(-50%);
+    margin-left: 50%;
+    margin-top: 90px;
+    border-radius: 20px;
+ }
+
+ 
+ .btn:hover{
+     background-color: springgreen;
+     color: #eee;
+ }
+
+
+

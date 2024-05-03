@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2? family Poppins:wght@300;400;500;600;700;800;900% display-swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+background-image: url(tree.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    opacity: 50px;
+}
+
+.container{
+    height: 350px;
+    width: 350px;
+    background-color:#82A3FF;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    box-shadow: black;
+    padding: 30px;
+    opacity: 0.2px;
+}
+.h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.login2{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left:11% ;
+}
+
+.login3{
+    margin-bottom: 15px;
+    margin-left: 11%;
+}
+
+.btn{
+   width: 120px;
+   cursor: pointer;
+   outline: none;
+   border: none;
+   height:30px;
+   font-size: 16px;
+   margin-bottom: 15px;
+   transform:translateX(-50%);
+   margin-left: 50%;
+}
+
+.btn:hover{
+    background-color: #eee;
+    color: skyblue;
+}
+
+.forget-password{
+    margin-bottom: 45px;
+    margin-bottom: 15px;
+}
+
+.forgot{
+    margin-bottom:15px;
+    margin-left: 11%;
+    margin-top:15px;
+}
+
+.forgot2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:11%;
+}
+
+.forgot3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 11%;
+}
+
+
+.Login{
+margin-left: 11%;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+.input:hover{
+    width: 100px;
+    height: 100px;
+}
+
+.register{
+    margin-bottom:15px;
+    margin-left: 5%;
+    margin-top:15px;
+}
+
+.register2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:5%;
+}
+
+
+.register3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    
+}
+
+
+.register4{
+    margin-bottom:15px;
+    margin-left: 5%;
+    margin-top:15px;
+   
+}
+
+
+.register5{
+    margin-bottom:15px;
+    margin-left: 5%;
+    margin-top:15px;
+}
